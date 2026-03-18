@@ -32,7 +32,7 @@ export function Home() {
       className="pt-24"
     >
       {/* Hero Section */}
-      <section className="min-h-[80vh] flex items-center relative overflow-hidden">
+      <section className="min-h-[80vh] flex items-center relative overflow-hidden py-24 md:py-32">
         <div className="absolute inset-0 z-0 bg-gradient-to-br from-accent/5 to-transparent pointer-events-none" />
         <div className="container mx-auto px-6 max-w-7xl relative z-10">
           <motion.div
@@ -41,7 +41,7 @@ export function Home() {
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="max-w-4xl"
           >
-            <h1 className="text-5xl md:text-7xl lg:text-8xl font-heading font-bold tracking-tighter text-text-primary leading-[1.1] mb-8">
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-heading font-bold tracking-tighter text-text-primary leading-[1.1] mb-8">
               Designing systems, stories, and learning experiences for emerging futures.
             </h1>
             <p className="text-xl md:text-2xl text-text-secondary max-w-2xl leading-relaxed mb-12">

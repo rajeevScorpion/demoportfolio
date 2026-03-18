@@ -44,7 +44,7 @@ export const projects: Project[] = [
     ],
     gallery: [
       {
-        url: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80",
+        url: "https://m.media-amazon.com/images/I/61zWFTCfWeL._AC_UF1000,1000_QL80_.jpg",
         caption: "Early wireframes mapping the evaluation logic."
       },
       {
